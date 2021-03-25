@@ -7,7 +7,7 @@ export const StyleMenuView = styled.div`
 
 `;
 
-export const ItensMenu = styled.a`
+export const ItensMenu = styled.p`
     font-family: 'M PLUS 1p', sans-serif;
     font-style: normal;
     font-size: 16px;
@@ -16,6 +16,8 @@ export const ItensMenu = styled.a`
     padding:15px;
     color: #ffff;
     background-color: Transparent;
+    cursor: pointer;
+    cursor: default;
     :hover{
         color: #b9b9b9
     }

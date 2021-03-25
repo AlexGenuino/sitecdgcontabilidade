@@ -4,25 +4,45 @@ import { Carousel } from 'react-responsive-carousel';
 import Image1 from '../../assets/image1.png'
 import Image2 from '../../assets/2.jpeg'
 import Image3 from '../../assets/3.jpg'
-import {TextImagem, StyleMensagem, Divteste } from './styles';
+import {PrincipalText, StyleMensagem, Divteste, SecondText, StyleSecondText, ButtonCarousel, StyleButton, TextButton } from './styles';
 
 const CustomCarousel = () => {
   return (
 
-<Carousel autoPlay={true} showArrows={false} showThumbs={false} interval="2000" infiniteLoop={true} showStatus={false} dynamicHeight>
+<Carousel autoPlay={true} showArrows={false} showThumbs={false} interval="2500" infiniteLoop={true} showStatus={false} dynamicHeight>
     <Divteste>
-        <img src={Image1}/>
-        <StyleMensagem>
-        <TextImagem>Somos um escritório</TextImagem>
-        <TextImagem>de Contabilidade</TextImagem>
-        </StyleMensagem>
+      <img src={Image1}/>
+      <StyleMensagem>
+        <PrincipalText>Somos um escritório</PrincipalText>
+        <PrincipalText>de Contabilidade</PrincipalText>
+        <StyleSecondText>
+          <SecondText>As melhores soluções para sua empresa, serviço</SecondText>
+          <SecondText>ou comércio. Conte conosco!</SecondText>
+        </StyleSecondText>
+        <StyleButton>
+            <ButtonCarousel>
+              <TextButton>Faça um orçamento</TextButton>
+            </ButtonCarousel>
+        </StyleButton>
+      </StyleMensagem>
     </Divteste>
-
-    
-
+    <Divteste>
+      <img src={Image1}/>
+      <StyleMensagem>
+        <PrincipalText>Somos um escritório</PrincipalText>
+        <PrincipalText>de Contabilidade</PrincipalText>
+        <StyleSecondText>
+          <SecondText>As melhores soluções para sua empresa, serviço</SecondText>
+          <SecondText>ou comércio. Conte conosco!</SecondText>
+        </StyleSecondText>
+        <StyleButton>
+            <ButtonCarousel>
+              <TextButton>Faça um orçamento</TextButton>
+            </ButtonCarousel>
+        </StyleButton>
+      </StyleMensagem>
+    </Divteste>
 </Carousel>
-
-
   )
 }
 

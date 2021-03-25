@@ -10,6 +10,7 @@
     "react-dom": "^17.0.1",
     "react-responsive-carousel": "^3.2.15",
     "react-responsive-carousel-variable-height": "^3.0.17",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "styled-components": "^5.2.1",
     "web-vitals": "^1.1.1"
