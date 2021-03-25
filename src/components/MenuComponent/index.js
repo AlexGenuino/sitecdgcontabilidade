@@ -1,20 +1,20 @@
 import React from 'react';
-
 import { Menu, StyleMenuView, ItensMenu} from './styles';
+import { useHistory  } from "react-router-dom";
 
 const MenuComponent = () => {
-  return (
-  
-    <StyleMenuView>
 
+  const history = useHistory()
+
+  return (
+    <StyleMenuView>
         <Menu>
-            <ItensMenu>Inicio</ItensMenu>
-            <ItensMenu>Nossas Soluções</ItensMenu>
-            <ItensMenu>Quem Somos</ItensMenu>
-            <ItensMenu>Contato</ItensMenu>
+          <ItensMenu onClick={() => history.push('/home')}>Inicio</ItensMenu>
+          <ItensMenu onClick={() => history.push('/solutions')}>Nossas Soluções</ItensMenu>
+          <ItensMenu>Quem Somos</ItensMenu>
+          <ItensMenu>Contato</ItensMenu>
         </Menu>
     </StyleMenuView>
-  
     );
 }
 
