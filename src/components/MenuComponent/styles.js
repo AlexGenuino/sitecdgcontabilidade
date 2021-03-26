@@ -17,7 +17,6 @@ export const ItensMenu = styled.p`
     color: #ffff;
     background-color: Transparent;
     cursor: pointer;
-    cursor: default;
     :hover{
         color: #b9b9b9
     }
