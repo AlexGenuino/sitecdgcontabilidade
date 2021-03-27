@@ -8,7 +8,7 @@ export const StyleMenuView = styled.div`
 `;
 
 export const ItensMenu = styled.p`
-    font-family: 'M PLUS 1p', sans-serif;
+    font-family: 'M PLUS 1p';
     font-style: normal;
     font-size: 16px;
     line-height: 24px;

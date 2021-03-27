@@ -23,6 +23,19 @@ color: #FFFFFF;
 
 export const StyleSecondText = styled.div`
 padding-top: 80px;
+width:50%;
+display:flex;
+justify-content:center;
+margin-left:25%;
+`;
+
+export const StylePrincipalText = styled.div`
+
+width:50%;
+display:flex;
+justify-content:center;
+margin-left:25%;
+
 `;
 
 export const SecondText = styled.h1`

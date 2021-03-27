@@ -6,7 +6,8 @@ export const Container = styled.div`
     height: 334px;
     background-color:#fff;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 7px 7px 0px 0px;
+    border-radius: 7px 7px 7px 7px;
+    
 `;
 
 export const StyleImg = styled.div`
@@ -46,7 +47,17 @@ export const SobreCard = styled.div`
     height: 40px;
     background: #470606;
     border-radius: 7px 0px;
-    
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    svg{
+        color:#fff;
+        font-size: 20px;
+        cursor: pointer;
+    :hover{
+        color: #b9b9b9
+    }
+    }
 `;
 
 export const StyleCardSobre = styled.div`
@@ -54,5 +65,5 @@ export const StyleCardSobre = styled.div`
     flex-direction:row;
     width: 100%;
     justify-content:flex-end;
-
 `;
+
