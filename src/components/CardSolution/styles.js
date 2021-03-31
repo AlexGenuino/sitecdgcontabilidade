@@ -10,6 +10,11 @@ export const Container = styled.div`
     
 `;
 
+export const StyleItem = styled.div`
+    padding:2%;
+
+`;
+
 export const StyleImg = styled.div`
     
     width: 100%;
@@ -30,6 +35,8 @@ export const TituloCard = styled.h1`
     margin-left:7px;
 
 `;
+
+
 
 export const ParagrafoCard = styled.p`
     font-family: 'M PLUS 1p';

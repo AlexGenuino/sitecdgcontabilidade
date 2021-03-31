@@ -26,6 +26,22 @@ const CustomCarousel = () => {
         </StyleButton>
       </StyleMensagem>
     </Divteste>
+    <Divteste>
+      <img src={Image1}/>
+      <StyleMensagem>
+        <StylePrincipalText>
+          <PrincipalText>Somos um escritório de Contabilidade</PrincipalText>
+        </StylePrincipalText>
+        <StyleSecondText>
+          <SecondText>As melhores soluções para sua empresa, serviço ou comércio. Conte conosco!</SecondText>
+        </StyleSecondText>
+        <StyleButton>
+            <ButtonCarousel>
+              <TextButton>Faça um orçamento</TextButton>
+            </ButtonCarousel>
+        </StyleButton>
+      </StyleMensagem>
+    </Divteste>
 </Carousel>
   )
 }

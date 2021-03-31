@@ -12,28 +12,28 @@ const Cards = [{
   paragrafo: 'A essência da empresa, onde é possível analisar o desempenho e sua real situação. Nossos profissionais altamente capacitados estão prontos para atender suas necessidades e expectativas.',
   image: Image1Card,
   link: '/solutions/contabeis',
-  delay:500
+  delay:350
 },
 {
-  titulo:'CONTABILIDADE',
+  titulo:'FISCAL',
   paragrafo: 'A essência da empresa, onde é possível analisar o desempenho e sua real situação. Nossos profissionais altamente capacitados estão prontos para atender suas necessidades e expectativas.',
   image: Image1Card,
   link: '/solutions/contabeis',
-  delay:600
+  delay:450
 },
 {
   titulo:'CONTABILIDADE',
   paragrafo: 'A essência da empresa, onde é possível analisar o desempenho e sua real situação. Nossos profissionais altamente capacitados estão prontos para atender suas necessidades e expectativas.',
   image: Image1Card,
   link: 'teste',
-  delay:700
+  delay:550
 },
 {
   titulo:'CONTABILIDADE',
   paragrafo: 'A essência da empresa, onde é possível analisar o desempenho e sua real situação. Nossos profissionais altamente capacitados estão prontos para atender suas necessidades e expectativas.',
   image: Image1Card,
   link: 'teste',
-  delay:800
+  delay:650
 }]
 
 const Solutions = () => {
