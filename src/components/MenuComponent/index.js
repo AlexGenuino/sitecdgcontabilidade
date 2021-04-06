@@ -9,7 +9,7 @@ const MenuComponent = () => {
   return (
     <StyleMenuView>
         <Menu>
-          <ItensMenu onClick={() => history.push('/home')}>Inicio</ItensMenu>
+          <ItensMenu onClick={() => history.push('/')}>Inicio</ItensMenu>
           <ItensMenu onClick={() => history.push('/solutions')}>Nossas Soluções</ItensMenu>
           <ItensMenu>Quem Somos</ItensMenu>
           <ItensMenu onClick={() => history.push('/contact')}>Contato</ItensMenu>

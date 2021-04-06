@@ -4,10 +4,13 @@ import NavBar from '../../components/NavBar'
 import Menu from '../../components/MenuComponent'
 import { AiFillStar } from "react-icons/ai";
 import Footer from '../../components/Footer'
+import { useHistory  } from "react-router-dom";
 
 
 const SolutionsContabeis = () => {
+  const history = useHistory()
   return (
+    
     <Container>
         <NavBar/>
         <Menu/>
@@ -52,7 +55,7 @@ const SolutionsContabeis = () => {
         </CardSobreText>
         <PositionButton>
             <ButtonContato>
-                <TextButton>
+                <TextButton onClick={() => history.push("/contact")}>
                   Entre em Contato
                 </TextButton>
             </ButtonContato>

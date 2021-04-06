@@ -1,7 +1,12 @@
 import React, {Component} from 'react';
 import GoogleMapReact from 'google-map-react';
+import { StyleCard} from './styles';
+import LogoPNG from '../../assets/CDGLOGO.png';
  
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
+const AnyReactComponent = ({ text }) => <StyleCard><img src={LogoPNG} style={{
+  width: 100,
+  height: 60,
+}}></img></StyleCard>;
  
 class SimpleMap extends Component {
  

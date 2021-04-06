@@ -1,28 +1,41 @@
 import React from 'react';
-import { Container, View, StyleIcons, TelefoneText, DivWhats} from './styles';
+import { Container, View, StyleIcons, DivImg, SvgHoverWhats, SvgHoverFace, SvgHoverinsta} from './styles';
 import Logo from '../../icons/Logo'
-import Faceicon from '../../assets/faceicon.png'
-import Instaicon from '../../assets/instaicon.png'
-import Whatsicon from '../../assets/whatsicon.png'
+import { AiOutlineWhatsApp, AiFillInstagram, AiOutlineFacebook } from "react-icons/ai"
 
 
 function NavBar() {
-    return (
 
+    const handlerlinkclick = (Link) =>{
+        window.open(Link, '_blank')
+    }
+    
+    const LinkWhats = "http://wa.me/5519993176589"
+    const LinkFace = "https://www.facebook.com/cdgcontabildadeeassessoria"
+    const LinkInsta = "https://www.instagram.com/cdgcontabilidadeassessoria/"
+    return (
         <Container>
             <View>
             <Logo/>
             <StyleIcons>
-            <img src={Faceicon} style={{width: 34,height: 34,}}></img>
-            <img src={Instaicon} style={{width: 34,height: 34,}}></img>
-            <DivWhats>
-            <img src={Whatsicon} style={{width: 34,height: 34,}}></img>
-            <TelefoneText>(19) 99999-9999</TelefoneText>
-            </DivWhats>
+            <DivImg>
+                <SvgHoverWhats>
+                <AiOutlineWhatsApp onClick = { () => handlerlinkclick(LinkWhats)}/>
+                </SvgHoverWhats>
+            </DivImg>
+            <DivImg>
+                <SvgHoverinsta>
+                <AiFillInstagram onClick = { () => handlerlinkclick(LinkInsta)}/>
+                </SvgHoverinsta>
+            </DivImg>
+            <DivImg>
+                <SvgHoverFace>
+                <AiOutlineFacebook onClick = { () => handlerlinkclick(LinkFace)}/>
+                </SvgHoverFace>
+            </DivImg>
             </StyleIcons>
             </View>
         </Container>
-        
     )}
   
   export default NavBar;
