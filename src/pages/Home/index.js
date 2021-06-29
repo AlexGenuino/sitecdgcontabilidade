@@ -1,5 +1,4 @@
 import React from 'react';
-import Navbar from '../../components/NavBar'
 import Carousell from '../../components/Carousel'
 import Menu from '../../components/MenuComponent'
 
@@ -9,7 +8,6 @@ const Home = () => {
   return (
   
   <Container>
-      <Navbar/>
       <Menu/>
       <Carousell/>
   </Container>

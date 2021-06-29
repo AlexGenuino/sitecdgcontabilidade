@@ -12,7 +12,6 @@ const SolutionsContabeis = () => {
   return (
     
     <Container>
-        <NavBar/>
         <Menu/>
         <StyleTitulo>
           <TituloPrincipal>Serviços Contábeis</TituloPrincipal>

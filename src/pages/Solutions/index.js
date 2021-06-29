@@ -39,7 +39,6 @@ const Cards = [{
 const Solutions = () => {
   return (
   <Container>
-      <Navbar/>
       <Menu/>
       <StyleTitulos>
         <TituloPrincipal>

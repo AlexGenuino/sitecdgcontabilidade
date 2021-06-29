@@ -105,7 +105,7 @@ margin-left:15%;
 export const TextHistory = styled.h1`
 font-family: 'M PLUS 1p';
 font-style: initial;
-font-weight: 300;
+font-weight: 350;
 font-size: 0.8rem;
 line-height: 1.5rem;
 color: #000000;
@@ -116,9 +116,9 @@ text-align: center;
 export const Titulo = styled.h1`
 font-family: 'M PLUS 1p';
 font-style: Bold;
-font-weight: 800;
+font-weight: 950;
 font-size: 1.0rem;
-line-height: 1.5rem;
+line-height: 2rem;
 color: #474747;
 text-align: center;
 align-self: flex-start;
@@ -129,7 +129,7 @@ padding: 1%;
 export const Item = styled.a`
 font-family: 'M PLUS 1p';
 font-style: initial;
-font-weight: 300;
+font-weight: 350;
 font-size: 0.8rem;
 line-height: 1.5rem;
 color: #000000;
@@ -140,7 +140,7 @@ align-self: flex-start;
 export const ServiceText = styled.a`
 font-family: 'M PLUS 1p';
 font-style: initial;
-font-weight: 300;
+font-weight: 350;
 font-size: 0.8rem;
 line-height: 1.5rem;
 color: #000000;

@@ -31,8 +31,7 @@ const Footer = () => {
         <StyleFooter>
           <ContentHistory>
               <img src={LogoPNG} style={{
-                width: 120,
-                height: 50,}}>
+                height: '3.1rem'}}>
               </img>
           <StyleSVG>
             <AiOutlineWhatsApp onClick = { () => handlerlinkclick(LinkWhats)}/>
