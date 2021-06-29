@@ -18,7 +18,7 @@ function Routes(){
                 <Route path ="/solutions" component={Solutions} exact/>
                 <Route path ="/solutions/contabeis" component={SolutionsContabeis} exact/>
                 <Route path ="/contact" component={Contact} exact/>
-                <Route path ="/newsoluions" component={NewSolutions} exact/>
+                <Route path ="/newsolutions" component={NewSolutions} exact/>
 
 
             </Switch>
