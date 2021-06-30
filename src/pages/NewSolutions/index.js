@@ -1,18 +1,13 @@
 import React from 'react';
 import { Container, StyleNewCard, Style, TituloPrincipal, TituloSecundario, StyleTitulo } from './styles';
 import NewCardSolution from '../../components/NewCardSolution';
-import Menu from '../../components/MenuComponent';
-import Footer from '../../components/Footer';
 import Zoom from 'react-reveal/Zoom';
 
 const NewSolution = () => {
 
-  
-
   return(
     
     <Container>
-        <Menu/>
         <StyleTitulo>
             <TituloPrincipal>
                 Nossas Soluções
@@ -35,7 +30,6 @@ const NewSolution = () => {
             <NewCardSolution></NewCardSolution>
         </StyleNewCard>
         </Style>
-        <Footer/>
     </Container>
     
   )

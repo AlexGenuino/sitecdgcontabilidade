@@ -6,6 +6,7 @@ import Solutions  from '../pages/Solutions';
 import SolutionsContabeis from '../pages/SolutionsContabeis';
 import Contact from '../pages/Contact';
 import NewSolutions from '../pages/NewSolutions';
+import About from '../pages/About';
 
 
 function Routes(){
@@ -19,6 +20,7 @@ function Routes(){
                 <Route path ="/solutions/contabeis" component={SolutionsContabeis} exact/>
                 <Route path ="/contact" component={Contact} exact/>
                 <Route path ="/newsolutions" component={NewSolutions} exact/>
+                <Route path ="/About" component={About} exact/>
 
 
             </Switch>
