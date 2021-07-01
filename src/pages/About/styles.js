@@ -1,12 +1,21 @@
 import styled from 'styled-components';
+import imgCDG from '../../assets/5.png';
+
+
 
 export const Container = styled.div`
   width: 100%;
   height: 60vh;
   //background-color: #F9F3F3;
+  background-image: url(${imgCDG});
+  background-repeat: no-repeat;
+  background-position: 80% 50%;
+  background-size:30%;
   display: flex;
   justify-content: center;
-
+  border-bottom: 1px solid;
+  border-bottom-color: #BABABA;
+  
 `;
 
 export const Style = styled.div`

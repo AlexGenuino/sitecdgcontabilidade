@@ -1,9 +1,13 @@
 import styled from "styled-components";
+import imgCDG from '../../assets/5.png';
 
 export const Container = styled.div`
-    display:1;
     width: 100%;
-    height: 100%;
+    height: 70vh;
+    background-image: url(${imgCDG});
+    background-repeat: no-repeat;
+    background-position: 80% 50%;
+    background-size:30%;
 `;
 
 export const StyleMap = styled.div`

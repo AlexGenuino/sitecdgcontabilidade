@@ -10,8 +10,6 @@ const Contact = () => {
   return (
   
     <Container>
-        <NavBar/>
-        <Menu/>
         <PositionMenuContact>
             <MenuContact>
                 <ItemMenuContact>
@@ -25,10 +23,6 @@ const Contact = () => {
         <StyleMap>
             <MapLocation></MapLocation>
         </StyleMap>
-
-
-
-    <Footer/>
     </Container>
   );
 }

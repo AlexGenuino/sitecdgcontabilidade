@@ -4,6 +4,7 @@ import Menu from '../../components/MenuComponent'
 import NewSolution from '../NewSolutions';
 import About from '../About';
 import Footer from '../../components/Footer';
+import Contact from '../Contact';
 
 import { Container } from './styles';
 
@@ -15,6 +16,7 @@ const Home = () => {
       <Carousell/>
       <NewSolution/>
       <About/>
+      <Contact/>
       <Footer/>
   </Container>
   )
